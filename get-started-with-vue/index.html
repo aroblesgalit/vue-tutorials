@@ -7,6 +7,26 @@
     <title>Get started with Vue</title>
 </head>
 <body>
+    <!-- HTML element in which to host the app -->
+    <div id="app">
+        <!-- Display data -->
+        {{ lastName }}, {{ firstName }}
+    </div>
     
+    <script src="https://unpkg.com/vue@next"></script>
+    <script>
+        // Create an app
+        const App = Vue.createApp({
+            // Add data
+            data() {
+                return {
+                    firstName: 'Alvin',
+                    lastName: 'Galit'
+                }
+            }
+        });
+        // Mount the app
+        App.mount('#app');
+    </script>
 </body>
 </html>
