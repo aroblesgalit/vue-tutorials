@@ -3,11 +3,12 @@
         <h2>About</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A delectus dolores eum! Aspernatur odio culpa consequatur rem voluptatibus dignissimos pariatur?</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A delectus dolores eum! Aspernatur odio culpa consequatur rem voluptatibus dignissimos pariatur?</p>
+        <div>{{ data }}</div>
     </div>
 </template>
 
 <script setup>
-
+    const { data } = await useFetch('/api/ninja?name=mario')
 </script>
 
 <style scoped>
