@@ -4,5 +4,6 @@ module.exports = {
         '^.+\\.(ts|tsx)?$': 'ts-jest',
         "^.+\\.(js|jsx)$": "babel-jest",
         '^.+\\.vue$': '@vue/vue3-jest'
-    }
+    },
+    testEnvironment: 'jsdom'
 }
