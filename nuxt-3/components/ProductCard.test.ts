@@ -27,4 +27,10 @@ describe('ProductCard.vue', () => {
         expect(wrapper.props().product.description).toMatch('Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday');
     });
 
+    it('renders an image of a product', () => {
+        const wrapper = setupTest(mockProps);
+        // expect(wrapper.find('img').exists()).toEqual(true)
+        expect(wrapper.find('.thumb').exists()).toEqual(true);
+        expect(wrapper.find('img').attributes('src')).toEqual(mockProps.product.image)
+    })
 });
