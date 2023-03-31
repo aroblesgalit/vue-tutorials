@@ -16,12 +16,18 @@
     "@vue/test-utils": "^2.3.2",
     "babel-jest": "^29.5.0",
     "jest": "^29.5.0",
-    "nuxt": "^3.3.2"
+    "nuxt": "^3.3.2",
+    "typescript": "^5.0.3"
   },
   "jest": {
     "transform": {
       "^[^.]+.vue$": "vue-jest",
       "^.+\\.js$": "babel-jest"
     }
+  },
+  "dependencies": {
+    "@vue/vue3-jest": "^29.2.3",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.0.5"
   }
 }

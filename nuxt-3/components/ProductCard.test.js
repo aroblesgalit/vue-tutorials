@@ -5,7 +5,7 @@ describe('ProductCard component: ', () => {
 
     it('renders product image, title, price, and description', () => {
         const wrapper = mount(ProductCard, {
-            propsData: {
+            props: {
                 product: {
                     title: 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
                     image: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
