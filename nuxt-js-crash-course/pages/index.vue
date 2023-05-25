@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import {defineComponent} from 'vue'
-export default defineComponent({
+// import {defineComponent} from 'vue'
+export default {
     head() {
         return {
             title: 'Welcome to Dad Jokes',
@@ -19,5 +19,5 @@ export default defineComponent({
             ]
         }
     }
-})
+}
 </script>

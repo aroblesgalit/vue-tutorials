@@ -16,9 +16,11 @@
 </template>
 
 <script>
-    export default {
-        name: 'AppHeader'
-    }
+// import {defineComponent} from 'vue'
+
+export default {
+    name: 'AppHeader'
+}
 </script>
 
 <style scoped>

@@ -6,8 +6,8 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from 'vue'
-export default defineComponent({
+// import {defineComponent} from 'vue'
+export default {
     head() {
         return {
             title: 'About the App',
@@ -20,7 +20,7 @@ export default defineComponent({
             ]
         }
     }
-})
+}
     
 </script>
 
