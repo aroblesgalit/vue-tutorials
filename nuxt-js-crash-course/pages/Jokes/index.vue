@@ -22,8 +22,8 @@ export default {
 
         try {
             const res = await axios.get('https://icanhazdadjoke.com/search', config);
-            this.jokes = res.data.results;
             
+            this.jokes = res.data
         } catch (err) {
             console.log(err)
         }
