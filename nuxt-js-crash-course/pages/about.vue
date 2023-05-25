@@ -6,7 +6,21 @@
 </template>
 
 <script>
-
+import {defineComponent} from 'vue'
+export default defineComponent({
+    head() {
+        return {
+            title: 'About the App',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Best place for corny dad jokes'
+                }
+            ]
+        }
+    }
+})
     
 </script>
 
